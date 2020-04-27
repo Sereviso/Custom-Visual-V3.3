@@ -1,29 +1,17 @@
 {
-  "name": "visual",
-  "scripts": {
-    "pbiviz": "pbiviz",
-    "start": "pbiviz start",
-    "package": "pbiviz package",
-    "lint": "tslint --project tsconfig.json --config tslint.json -t stylish -r node_modules/tslint-microsoft-contrib"
-  },
-  "dependencies": {
-    "@babel/runtime": "7.6.0",
-    "@babel/runtime-corejs2": "7.6.0",
-    "@types/d3": "^5.0.0",
-    "core-js": "^3.2.1",
-    "d3": "^5.0.0",
-    "dompurify": "^2.0.10",
-    "npm-git-install": "^0.3.0",
-    "powerbi-visuals-utils-dataviewutils": "2.2.1",
-    "powerbi-visuals-utils-formattingutils": "^4.4.2",
-    "sanitize-filename": "^1.6.3"
-  },
-  "devDependencies": {
-    "@types/node": "^13.13.2",
-    "powerbi-visuals-api": "^2.6.1",
-    "ts-loader": "6.1.0",
-    "tslint": "^5.18.0",
-    "tslint-microsoft-contrib": "^6.2.0",
-    "typescript": "3.6.3"
-  }
+    "version": "3.3.0",
+    "author": {"name":"Entech SPA AG","email":"customvisual@sereviso.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/BBED0A4D4D8D44CE93CF2DAFADEE466C.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"Dynamic KPI Card by Sereviso","displayName":"Dynamic KPI Card by Sereviso","guid":"BBED0A4D4D8D44CE93CF2DAFADEE466C","visualClassName":"Visual","version":"3.3.0","description":"Shows a KPI, and allows to set up to two other references (i.e. other KPIs, or comparisons). The border of the KPI Card can dynamically change the color based on the selected KPI and value range.","supportUrl":"https://sereviso.com/contact-us/","gitHubUrl":"https://github.com/sereviso/custom-visual-v3.3"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
 }
