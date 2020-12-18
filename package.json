@@ -13,7 +13,7 @@
     "@types/jquery": "^3.3.36",
     "core-js": "^3.2.1",
     "d3": "^5.0.0",
-    "dompurify": "^2.0.10",
+    "dompurify": "^2.0.17",
     "npm-git-install": "^0.3.0",
     "powerbi-visuals-utils-dataviewutils": "2.2.1",
     "powerbi-visuals-utils-formattingutils": "^4.4.2",
